@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-color {
+    color: rgb(255, 136, 0);
+}
+
+section {
+    display: flex;
+
+
+}
+
+.half-width {
+    width: 50%;
+    padding: 2%;
+}
+
+.half-width img {
+    70%
+}
