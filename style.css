@@ -7,14 +7,25 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .my-name-color {
     color: rgb(255, 136, 0);
 }
 
-section {
+
+.first-section {
     display: flex;
-    margin: 150px;
+    margin-bottom: 150px;
 }
+
+.second-section {
+    display: flex;
+    margin-bottom: 150px
+}
+
 
 .half-width {
     width: 50%;
@@ -45,4 +56,42 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+    margin-right: 20px 30px;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiences-heading {
+    text-align: start;
+    margin-left: 10px;
+
+}
+
+.experiences-items {
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+#Full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#Baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
